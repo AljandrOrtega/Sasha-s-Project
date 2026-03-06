@@ -1,3 +1,6 @@
+const SUPABASE_URL = 'https://boqjeeaawzfyxtgditbn.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJvcWplZWFhd3pmeXh0Z2RpdGJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI4MTQ1MDksImV4cCI6MjA4ODM5MDUwOX0.j-xAF3Qxs38iJcAceyvVa9w3zYoIyP5hvYvPdh_JJ6U'
+
 const lista = document.getElementById("listaTareas");
 
 // Configuración de conexión
