@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	
+<head>
+	<meta charset="UTF-8">
+	<title>Mi Tarjeta Digital</title>
+	<link rel=stylesheet href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div class="tarjeta">
+		<img src="perro-intelectual.jpg">
+		<h1>Alejandro Ortega</h1>
+		<p>Estudiante de Ingeniería en Sistemas,
+			me gusta los videojuegos y gracias
+			a ellos empecé a programar.
+		</p>
+		<a href="https://linkedin.com/in/diego-alejandro-rodriguez-ortega-246084287"> Mi LinkedIn</a>
+		
+		<div class="todo-section">
+			<h3>Mi Lista de Tareas</h3>
+			<input type="text" id="tareaInput" placeholder="Escribe una tarea...">
+			<button onclick="agregarTarea()">Agregar</button>
+			<ul id="listaTareas">
+				
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>
